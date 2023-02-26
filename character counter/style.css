@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+body{
+    background-color: #E8D5C4;
+}
+.container{
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left:50%;
+}
+textarea{
+    width:100%;
+    resize:none;
+    background-color: #FFF1DC;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 15px;
+    border-radius: 3px;
+    color: rgb(93, 93, 93);
+    outline: none;
+}
+p{
+    color:  rgb(93, 93, 93);
+    text-align:right;
+    margin-top: 20px;
+}
